@@ -5,7 +5,7 @@ layout: english
 
 <div class="w3-row" style="padding-left: 15%; padding-right: 15%;">
   <div class="w3-col m3 l3 w3-left">
-     <img src="/assets/img/alirvahdati.jpg" alt="Ali R. Vahdati." style="margin-left:auto; margin-right:auto; max-width: 200px; width: 90%; display:block; margin-bottom: 1%; max-width=50px;"> 
+     <img src="{{site.url}}{{site.baseurl}}/assets/img/alirvahdati.jpg" alt="Ali R. Vahdati." style="margin-left:auto; margin-right:auto; max-width: 200px; width: 90%; display:block; margin-bottom: 1%; max-width=50px;"> 
   </div>
   <div class="w3-col m9 w3-left">
     <p>Evolutionary Biologist</p>
