@@ -1,2 +1,0 @@
-# vahdati.info
-Personal website
