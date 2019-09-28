@@ -1,8 +1,26 @@
-<div class="w3-row">
-  <div class="w3-col m9 w3-bar w3-light-grey" style="text-align: right">
-    <a href="{{site.url}}{{site.baseurl}}/blogfa" class="w3-bar-item w3-button w3-hover-blue w3-mobile">خانه</a>
-  </div>
-  <div class="w3-col m3 w3-center">
-    <h3><a href="{{site.url}}{{site.baseurl}}/blogfa" style="text-decoration: none;">علی رضایی وحدتی</a></h3>
+<div class="header" style="padding: 20px; text-align: right; background: #b2e9de; color: grey; font-size: 30px;">
+  <h1> <a href="{{site.url}}{{site.baseurl}}/vir" style="text-decoration: none;"> ویر </a></h1>
+  <p style="font-size: 0.7em">علی رضایی وحدتی</p>
+</div>
+
+<div class="w3-bar w3-light-blue">
+  <a href="{{site.url}}{{site.baseurl}}/vir" class="w3-bar-item w3-button w3-hover-grey w3-mobile" dir="rtl" style="float: right; font-size: 1.3em">خانه</a>
+  
+  <!-- Html Elements for Search -->
+  <div id="search-container" class="w3-bar-item">
+    <input type="text" id="search-input" placeholder="جستجو...">
+    <ul id="results-container"></ul>
   </div>
 </div>
+  
+<!-- Script pointing to search-script.js -->
+<script src="{{site.url}}{{site.baseurl}}/search-script.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{site.url}}{{site.baseurl}}/search.json'
+  })
+</script>
