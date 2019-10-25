@@ -5,7 +5,9 @@ permalin: /experience/
 
 # Experience
 
-* __Postdoc__ at Christoph Zollikofer's lab, Department of Anthropology, University of Zurich, 2017- now
+* __Postdoc__ at Christoph Zollikofer's lab, Department of Anthropology, University of Zurich, 2017- now.
+* BIO397 - Applied Machine Learning block course, 2019
+  Designed and delivered lectures and exercises on Julia programming language, linear algebra, multivariate calculus, machine learning algorithms, neural networks, and evaluation and improvement of machine learning models. I taught 20 students with no previous knowledge of machine learning to be able to design and perform complete machine learning workflows.
 * __Lecture__ at reproducible research workshop, EAWAG, 2018, Kastanienbaum, Switzerland
   I gave a lecture and hands-on tutorial on using Git version control software and collaborating using Github. (Teaching material here)
 * __Teaching Assistant__, Geometric morphometrics, UZH, 2018
