@@ -15,11 +15,3 @@ permalink: /publications/
 0.  Dall’Olio G. M., __Vahdati A. R.__, Bertranpetit J., Wagner A., Laayouni H., 2014 VCF2Networks: applying genotype networks to single nucleotide variants data. _Bioinformatics_: 4–5, https://doi.org/10.1093/bioinformatics/btu650.
 0.  Kaerst S.\*, __Vahdati A. R.\*__, Brockmann G., Hager R., 2012 Genomic imprinting and genetic effects on muscle traits in mice, _BMC Genomics_, 13:408, https://doi.org/10.1186/1471-2164-13-408. - __* Equal contribution__
 {: reversed="reversed"}
-
-## Other
-
-* Co-founding [__Bidar literary magazine__](http://bidarnameh.com){:target="_blank"}.
-* __Translation of "Three Worlds"__ by Karl Popper into Persian
-* A __thesaurus of Persian nouns__ from the Moeen dictionary ([here](https://github.com/kavir1698/Moeen_thesaurus){:target="_blank"}).
-* [__GraphNotes__](https://github.com/kavir1698/GraphNotes){:target="_blank"}: A tool to convert your research notes to a graph so that finding relevant information will be easier.
-* [__AnalyzeImageMetadata.jl__](https://github.com/kavir1698/AnalyzeImageMetadata.jl){:target="_blank"}: Analyzing your photography habits
