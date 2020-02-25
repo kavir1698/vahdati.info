@@ -4,7 +4,7 @@ categories: مقاله
 layout: "post-fa"
 lan: fa
 date: 2019-06-23
-permalink: /vahdati.info/vir/چرا-داستان-مهم-است/
+permalink: /vir/چرا-داستان-مهم-است/
 author: علی رضایی وحدتی
 comments: true
 tags:

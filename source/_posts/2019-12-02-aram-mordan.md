@@ -4,7 +4,7 @@ categories: مقاله
 layout: "post-fa"
 lan: fa
 date: 2019-12-02
-permalink: /vahdati.info/vir/آرام-مردن/
+permalink: /vir/آرام-مردن/
 author: علی رضایی وحدتی
 comments: true
 tags:

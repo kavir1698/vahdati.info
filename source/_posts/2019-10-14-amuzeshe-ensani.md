@@ -4,7 +4,7 @@ categories: مقاله
 layout: "post-fa"
 lan: fa
 date: 2019-10-14
-permalink: /vahdati.info/vir/آموزش/
+permalink: /vir/آموزش/
 author: علی رضایی وحدتی
 comments: true
 tags:
