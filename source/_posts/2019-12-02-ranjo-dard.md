@@ -4,7 +4,7 @@ categories: مقاله
 layout: "post-fa"
 lan: fa
 date: 2019-12-02
-permalink: /vir/رنج-خوشی/
+permalink: /vahdati.info/vir/رنج-خوشی/
 author: علی رضایی وحدتی
 comments: true
 tags:

@@ -4,7 +4,7 @@ categories: مقاله
 layout: "post-fa"
 lan: fa
 date: 2019-11-10
-permalink: /vir/ترس-رشد/
+permalink: /vahdati.info/vir/ترس-رشد/
 author: علی رضایی وحدتی
 comments: true
 tags:
