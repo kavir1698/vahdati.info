@@ -1,6 +1,6 @@
 ---
 layout: english
-permalin: /software/
+permalink: /software/
 ---
 
 # Software

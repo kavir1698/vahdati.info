@@ -1,6 +1,6 @@
 ---
 layout: english
-permalin: /teaching/
+permalink: /teaching/
 ---
 
 # Teaching
