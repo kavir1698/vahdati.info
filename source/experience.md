@@ -1,6 +1,6 @@
 ---
 layout: english
-permalin: /experience/
+permalink: /experience/
 ---
 
 # Experience
