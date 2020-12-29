@@ -10,8 +10,8 @@ description: "Ali R. Vahdati"
   </div>
   <div class="w3-col m9 w3-left">
     <p>Evolutionary Biologist</p>
-    <p>Postdoc at Christoph Zollikofer&#39;s lab, Department of Anthropology –University of Zurich, Switzerland</p>
-    <p>Experienced in statistical analysis, machine learning, data science, computer programming (Julia, Python, R, Nim), science writing, optimization (linear programming), agents-based modeling, and modeling population genetics and evolutionary dynamics. </p>
+    <p>Senior lecturer, University of Zurich, Switzerland</p>
+    <p>Experienced in statistical analysis, machine learning, data science, computer programming (Julia, Python, R), writing, optimization (linear programming), agents-based modeling, and modeling population genetics and evolutionary dynamics. </p>
   </div>
 </div>
 
