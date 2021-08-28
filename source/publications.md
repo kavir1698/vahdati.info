@@ -5,6 +5,11 @@ permalink: /publications/
 
 # Publications
 
+## Book
+
+1. Three world by Karl Popper - translation to persian ([download]({{ site.url }}{{ site.baseurl }}/assets/docs/se_jahan_ali_rezaee_vahdati.pdf)).
+  ترجمه‌ی سخنرانی «سه جهان» از کارل پوپر (([download]({{ site.url }}{{ site.baseurl }}/assets/docs/se_jahan_ali_rezaee_vahdati.pdf))[بارگیری])
+
 ## Selected peer-reviewed articles
 
 0. __R. Vahdati, A.__, Agents.jl: agent-based modeling framework in Julia. _Journal of Open Source Software_,2019, 4(42), 1611, https://doi.org/10.21105/joss.01611.
