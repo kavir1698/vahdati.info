@@ -1,0 +1,18 @@
+I"A	<div class="w3-row" style="padding-left: 15%; padding-right: 15%;">
+  <div class="w3-col m3 l3 w3-left">
+     <img src="https://kavir1698.github.io//vahdati.info/assets/img/alirvahdati.jpg" alt="Ali R. Vahdati." style="margin-left:auto; margin-right:auto; max-width: 200px; width: 90%; display:block; margin-bottom: 1%; max-width=50px;" /> 
+  </div>
+  <div class="w3-col m9 w3-left">
+    <p>Evolutionary Biologist</p>
+    <p>Senior lecturer, University of Zurich, Switzerland</p>
+    <p>Experienced in statistical analysis, machine learning, data science, computer programming (Julia, Python, R), writing, optimization (linear programming), agents-based modeling, and modeling population genetics and evolutionary dynamics. </p>
+  </div>
+</div>
+
+<p>Welcome! I am interested in studying complex systems, especially biological ones. Complexity is a state where a systems behavior and its response to environment depends on the current state of the system. Complex systems are mostly unpredictable and can show emergent properties that cannot be concluded from studying their constituent parts. A complex system can be as small as three differential equations (<a href="https://en.wikipedia.org/wiki/Lorenz_system">Lorenz system</a>) or as big as the human body with thousands of molecules interacting with one another. I would like to better understand complexity in biological systems: how interactions among genes, proteins, cells, individuals, groups, and species affect their evolution.</p>
+
+<p>My approach to studying such questions is with computational models. Such models allow adding more elements to a study system than mathematical models can handle, and thus help us analyze emergent properties of complex systems.</p>
+
+<p>Some of my previous studies include <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4969671/" target="_blank">analyzing human genetic variation data using genotype networks to identify convergent evolution</a>, examining interactions between population size and mutation rate on <a href="https://doi.org/10.1007/s11692-017-9440-9" target="_blank">empirical</a> and <a href="https://doi.org/10.7150/ijbs.19436" target="_blank">RNA folding</a> adaptive landscapes, and <a href="https://doi.org/10.1016/j.quascirev.2019.105867" target="_blank">evaluating the role different potential causes of human dispersals from Africa</a>.</p>
+
+:ET
