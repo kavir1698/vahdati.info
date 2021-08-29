@@ -17,8 +17,8 @@ title: Ali R. Vahdati
 email: arv.kavir@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ali R. Vahdati's personal website
-baseurl: "/vahdati.info" # the subpath of your site, e.g. /blog
-url: "https://kavir1698.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vahdati.info" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alirrv
 github_username:  kavir1698
 

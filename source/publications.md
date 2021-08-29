@@ -4,7 +4,7 @@ permalink: /publications/
 ---
 # Publications
 
-## Book
+## Books
 
 1. Three world by Karl Popper - translation to persian ([download]({{ site.url }}{{ site.baseurl }}/assets/docs/se_jahan_ali_rezaee_vahdati.pdf)).
    ترجمه‌ی سخنرانی «سه جهان» از کارل پوپر ([بارگیری]({{ site.url }}{{ site.baseurl }}/assets/docs/se_jahan_ali_rezaee_vahdati.pdf))
