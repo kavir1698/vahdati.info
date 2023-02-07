@@ -8,7 +8,7 @@ permalink: /hobbies/
 
 * [Bidar literary magazine](http://bidarnameh.com) (in Persian)
 
-  In mid-2019 I cofounder an online literary magazine focusing on publishing
+  In mid-2019 I founded an online literary magazine focusing on publishing
   short stories. I have since wrote several articles in the magazine. We have managed to
   attract hundreds of people to write short stories, many of which were first-time writers.
   Furthermore, we organized a short story contest that received more than 700 submissions.}
@@ -21,7 +21,8 @@ permalink: /hobbies/
 
   I have also written a GUI application for organizing and quickly accessing research notes ([GraphNotes](https://github.com/kavir1698/GraphNotes)), a thesaurus of Persian nouns from Moeen Dictionary ([Moeen_thesaurus](https://github.com/kavir1698/Moeen_thesaurus)), and a program to analyze photography habits using the metadata photos ([AnalyzeImageMetadata.jl](https://github.com/kavir1698/AnalyzeImageMetadata.jl)).
 
-* Writing in [my blog](http://vahdati.info/vir) (in Persian)
+* Writing
+  * I write in [my blog](http://vahdati.info/vir) (in Persian) about topics such as philosophy and politics.
 
 * Translation
 
@@ -32,9 +33,8 @@ permalink: /hobbies/
   I am a core member of [Setar Cultural Association](http://setar.co){:target="_blank"} since 2014.
   We organize Iranian classic music concerts in Zurich, Switzerland. I also play Setar. 
 
-* [Photography](https://instagram.com/alirvahdati){:target="_blank"}
+* [Photography](https://instagram.com/farhadvhdt){:target="_blank"}
 
   It has helped me re-discover nature and learn to observe light, texture, contrast, and composition.
 
-* Meditation
 * [Reading](https://www.goodreads.com/user/show/12176303-ali){:target="_blank"}

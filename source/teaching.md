@@ -4,7 +4,7 @@ permalink: /teaching/
 ---
 # Teaching
 
-* __Teaching__ [BIO397 - Applied Machine Learning block course](https://kavir1698.github.io/aml){:target="_blank"}, 2019-2021.
+* __Teaching__ [BIO397 - Applied Machine Learning block course](https://kavir1698.github.io/aml){:target="_blank"}, 2019-2022.
 
   I deliver lectures and exercises for Julia programming language, linear algebra, multivariate calculus, machine learning, neural networks, and evaluation and improvement of machine learning models. I teach students with no previous knowledge of machine learning to design and perform complete machine learning workflows.
 * __Lecture__ at reproducible research workshop, EAWAG, 2018, Kastanienbaum, Switzerland.
