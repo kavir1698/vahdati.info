@@ -15,7 +15,9 @@
   <link rel="icon" href="" />
   <link rel="stylesheet" href="https://vahdati.info/assets/css/main.css" />
   <link rel="stylesheet" href="https://vahdati.info/assets/fonts/fontawesomev5.0.2.css" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!-- Begin Jekyll SEO tag v2.7.1 -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Ali R. Vahdati | Ali R. Vahdati’s personal website</title>
 <meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Ali R. Vahdati" />
@@ -34,70 +36,42 @@
   
 <body dir="ltr" style="padding-right: 4%; padding-left: 4%; height: 100%" bgcolor="#EDEEEE">
   
-  <!-- <div class="w3-row">
-  <div class="w3-col m3 w3-center">
-    <h2><a href="https://vahdati.info/" style="text-decoration: none;">Ali R. Vahdati</a></h2>
-  </div>
-    <div class="w3-col m9 w3-bar w3-light-grey" style="text-align: right">
-      <a href="https://vahdati.info/" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Home</a>
-      <a href="https://vahdati.info/publications" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Publications</a>
-      <a href="https://vahdati.info/teaching" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Teaching</a>
-      <a href="https://vahdati.info/software" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Software</a>
-      <a href="https://vahdati.info/edu" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Experience</a>
-      <a href="https://vahdati.info/hobbies" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Hobbies</a>
-      <a href="https://vahdati.info/vir" class="w3-bar-item w3-button w3-hover-blue w3-mobile">یادداشت‌ها</a>
-  </div>
-</div> -->
-  <!-- Navigation Menu -->
-  <div class="w3-row w3-teal" style="background-color: gainsboro">
-    <div class="w3-col s3">
-      <button class="w3-button w3-teal w3-xlarge" onclick="toggleMenu()">☰</button>
-    </div>
-  <div class="w3-col m3 w3-center" style="text-align: left">
-    <h2><a href="https://vahdati.info/" style="text-decoration: none;">Ali R. Vahdati</a></h2>
-  </div>
-  <div id="menu" class="w3-hide w3-col s12" style="text-align: right">
-    <a href="https://vahdati.info/" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Home</a>
-    <a href="https://vahdati.info/publications"
-      class="w3-bar-item w3-button w3-hover-blue w3-mobile">Publications</a>
-    <a href="https://vahdati.info/teaching" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Teaching</a>
-    <a href="https://vahdati.info/software" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Software</a>
-    <a href="https://vahdati.info/edu" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Experience</a>
-    <a href="https://vahdati.info/hobbies" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Hobbies</a>
-    <a href="https://vahdati.info/vir" class="w3-bar-item w3-button w3-hover-blue w3-mobile">یادداشت‌ها</a>
-  </div>
-
-  </div>
-  
-<!-- JavaScript Code -->
-<script>
-  function toggleMenu() {
-    var x = document.getElementById("menu");
-    if (window.innerWidth < 600) { /* Change the width value to your desired breakpoint */
-      if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-      } else {
-        x.className = x.className.replace(" w3-show", "");
-      }
+  <script>
+  $(document).ready(function () {
+    if ($(window).width() < 768) {
+      $(".nav-menu").hide();
     } else {
-      if (x.className.indexOf("w3-hide") == -1) {
-        x.className += " w3-hide";
-      } else {
-        x.className = x.className.replace(" w3-hide", "");
-      }
+      $(".nav-menu").show();
     }
-  }
-
-  /* Call toggleMenu() when the window is resized */
-  window.addEventListener('resize', toggleMenu);
-
-  /* Show the menu by default if window is larger than the breakpoint */
-  if (window.innerWidth >= 600) {
-    var x = document.getElementById("menu");
-    x.className = "w3-col s12";
-  }
+    $(".nav-button").click(function () {
+      $(".nav-menu").slideToggle();
+    });
+  });
 </script>
 
+<header class="w3-container">
+  <button class="w3-button w3-hide-large w3-white w3-xlarge w3-right nav-button">&#9776;</button>
+  <nav class="w3-bar w3-black w3-hide-small">
+    <a href="https://vahdati.info/" class="w3-bar-item w3-button">Home</a>
+    <a href="https://vahdati.info/publications" class="w3-bar-item w3-button">Publications</a>
+    <a href="https://vahdati.info/teaching" class="w3-bar-item w3-button">Teaching</a>
+    <a href="https://vahdati.info/software" class="w3-bar-item w3-button">Software</a>
+    <a href="https://vahdati.info/edu" class="w3-bar-item w3-button">Experience</a>
+    <a href="https://vahdati.info/hobbies" class="w3-bar-item w3-button">Hobbies</a>
+    <a href="https://vahdati.info/vir"  class="w3-bar-item w3-button">یادداشت‌ها</a>
+  </nav>
+  <nav class="w3-bar w3-black w3-hide-medium w3-hide-large nav-menu">
+    <a href="https://vahdati.info/" class="w3-bar-item w3-button">Home</a>
+    <a href="https://vahdati.info/publications" class="w3-bar-item w3-button">Publications</a>
+    <a href="https://vahdati.info/teaching" class="w3-bar-item w3-button">Teaching</a>
+    <a href="https://vahdati.info/software" class="w3-bar-item w3-button">Software</a>
+    <a href="https://vahdati.info/edu" class="w3-bar-item w3-button">Experience</a>
+    <a href="https://vahdati.info/hobbies" class="w3-bar-item w3-button">Hobbies</a>
+    <a href="https://vahdati.info/vir" class="w3-bar-item w3-button">یادداشت‌ها</a>
+  </nav>
+</header>
+
+  <main class="w3-container">
   <div style="text-align: center;">
     <div style="display: inline-block; text-align: left; max-width: 1000px; min-width: 50%;">
       <h1 id="publications">Publications</h1>
@@ -126,13 +100,10 @@
 
     </div>
   </div>
-
-  <!-- <footer>
-
-<div class="wrapper" style="background-color: gainsboro; height: 20%; width: 100%; position: relative; margin-bottom: 0%; padding-left: 15%; padding-right: 15%">
-
-<div class="w3-row" >
-  <div class="w3-col m6">
+  </main>
+  
+  <div class="w3-container container" style="background-color:silver">
+  <div class="w3-col m4 column">
     <ul>
       <li>
         <p><a
@@ -140,28 +111,28 @@
             scholar</a></p>
       </li>
       <li>
-        <p><a
-            href="https://github.com/kavir1698">Github</a>
+        <p><a href="https://github.com/kavir1698">Github</a>
         </p>
       </li>
       <li>
-        <p><a
-            href="https://www.linkedin.com/in/alirv/">Linkedin</a>
-        </p>
-      </li>
-      <li>
-        <p><a
-            href="https://orcid.org/0000-0003-0895-1495">ORCID</a>
-        </p>
-      </li>
-      <li>
-        <p><a
-            href="https://www.goodreads.com/user/show/12176303-ali">Goodreads</a>
+        <p><a href="https://www.linkedin.com/in/alirv/">Linkedin</a>
         </p>
       </li>
     </ul>
   </div>
-  <div class="w3-col m6">
+  <div class="w3-col m4 column">
+    <ul>
+      <li>
+        <p><a href="https://orcid.org/0000-0003-0895-1495">ORCID</a>
+        </p>
+      </li>
+      <li>
+        <p><a href="https://www.goodreads.com/user/show/12176303-ali">Goodreads</a>
+        </p>
+      </li>
+    </ul>
+  </div>
+  <div class="w3-col m4 column">
     <ul>
       <li>
         <a href="https://www.instagram.com/farhadvhdt/">Instagram</a>
@@ -174,71 +145,7 @@
       </li>
     </ul>
   </div>
-  </div>
-
 </div>
-</footer> -->
-
-
-<!-- Footer -->
-<div class="wrapper" style="background-color: gainsboro; height: 20%; width: 100%; position: relative; margin-bottom: 0%; padding-left: 15%; padding-right: 15%">
-<footer class="w3-row">
-    <div class="w3-col m4 s12">
-      <ul>
-        <li>
-              <p><a
-                  href="https://scholar.google.com/citations?hl=en&user=BOGPlUYAAAAJ&sortby=pubdate&view_op=list_works&gmla=AJsN-F7DDvCuRVXnZRbOSj-unnK38L023RC6o_6hzUMy4-qRcr9P5ubz8yx5GNgG6xiBjJauEApSv6Ywa4SJoI7pnNC0wteZbxTNBbzI0-BIBUWyZE35qG91Eo-HCpq43WQnNm8g68hD">Google
-                  scholar</a></p>
-            </li>
-            <li>
-              <p><a href="https://github.com/kavir1698">Github</a>
-              </p>
-            </li>
-                  <li>
-                    <p><a href="https://www.linkedin.com/in/alirv/">Linkedin</a>
-                    </p>
-                  </li>
-          </ul>
-    </div>
-    <div class="w3-col m4 s12">
-      <ul>
-              <li>
-                <p><a href="https://orcid.org/0000-0003-0895-1495">ORCID</a>
-                </p>
-              </li>
-              <li>
-                <p><a href="https://www.goodreads.com/user/show/12176303-ali">Goodreads</a>
-                </p>
-              </li>
-      </ul>
-    </div>
-    <div class="w3-col m4 s12">
-          <ul>
-            <li>
-              <a href="https://www.instagram.com/farhadvhdt/">Instagram</a>
-            </li>
-            <li>
-              <a href="http://bidarnameh.com"> مجله‌ی داستانی بیدار </a>
-            </li>
-            <li>
-              <p>alirezaeev [at] gmail [dot] com</p>
-            </li>
-          </ul>
-    </div>
-  </footer>
-</div>
-
-<!-- JavaScript Code -->
-<script>
-  function toggleFooter() {
-    var x = document.getElementById("footer");
-    if (x.className.indexOf("w3-show") == -1) {
-      x.className += " w3-show";
-    } else {
-      x.className = x.className.replace(" w3-show", "");
-    }
-  }
-</script>
 </body>
 
 </html>

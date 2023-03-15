@@ -1,53 +1,25 @@
-/* Style for Header */
-#menu {
-  background-color: #f1f1f1;
-  padding: 8px; /* Reduce the vertical padding */
+.nav-menu {
+  display: none;
 }
 
-#menu a {
-  display: block;
-  color: #333;
-  padding: 8px; /* Reduce the padding */
-  font-size: 16px; /* Reduce the font size */
-  text-decoration: none;
-}
-
-#menu a:hover {
-  background-color: #ddd;
-}
-
-/* Style for Footer */
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-footer h3 {
-  color: #fff;
-  /* Change text color for headings */
-}
-
-footer p {
-  color: #000000;
-  /* Change text color for paragraphs */
-}
-
-footer .w3-col.m4.s12 {
-  background-color: gainsboro
-}
-
-footer .w3-col.w3-teal {
-  background-color: gainsboro
-}
-
-wrapper {
-  background-color: gainsboro; height: 20%; width: 100%; position: relative; margin-bottom: 0%; padding-left: 15%; padding-right: 15%
-}
-
-/* Style for Small Screens */
-@media (max-width: 600px) {
-  footer .w3-col {
-    width: 100%;
+@media screen and (min-width: 768px) {
+  .nav-menu {
+    display: block !important;
   }
+
+}
+
+html, body {
+  min-height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  margin-bottom: 20px; /* adjust this to match the height of your footer */
+  padding: 20px;
 }
