@@ -4,11 +4,12 @@ description: "Ali R. Vahdati"
 ---
 
 
-<div class="w3-row" style="padding-left: 15%; padding-right: 15%;">
-  <div class="w3-col m3 l3 w3-left">
-     <img src="{{site.url}}{{site.baseurl}}/assets/img/alirvahdati.jpg" alt="Ali R. Vahdati." style="margin-left:auto; margin-right:auto; max-width: 200px; width: 90%; display:block; margin-bottom: 1%; max-width=50px;"> 
+<div class="w3-row" style="padding-left: 10%; padding-right: 10%;">
+  <div class="w3-col m5 w3-left">
+     <img src="{{site.url}}{{site.baseurl}}/assets/img/farhadvahdati.jpg" alt="Ali R. Vahdati." style="margin-left:auto; margin-right:auto;max-width: 500px; width: 97%; display:block; margin-bottom: 1%; max-width=50px; "> 
   </div>
-  <div class="w3-col m9 w3-left">
+  <div class="w3-col m7 w3-left">
+  <h1> Ali R. Vahdati </h1>
     <p>Evolutionary Biologist</p>
     <p>Senior lecturer, University of Zurich, Switzerland</p>
     <p>Experienced in modeling biological evolutionary systems in different levels, from genes to populations, using a variety of techniques (e.g. agent-based modeling, analytical modeling, mathematical optimization), analyzing the models (statistical analysis, machine learning), and communicating the results (science writing, visualization). </p>
@@ -24,3 +25,4 @@ Download my CV from [here]({{ site.url }}{{ site.baseurl }}/assets/docs/resume_c
 
 <!-- Some of my previous studies include [analyzing human genetic variation data using genotype networks to identify convergent evolution](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4969671/){:target="_blank"}, examining interactions between population size and mutation rate on [empirical](https://doi.org/10.1007/s11692-017-9440-9){:target="_blank"} and [RNA folding](https://doi.org/10.7150/ijbs.19436){:target="_blank"} adaptive landscapes, and [evaluating the role different potential causes of human dispersals from Africa](https://doi.org/10.1016/j.quascirev.2019.105867){:target="_blank"}. -->
 
+ <!-- max-width: 500px; width: 97%; display:block; margin-bottom: 1%; max-width=50px; -->
