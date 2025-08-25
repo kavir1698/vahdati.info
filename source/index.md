@@ -10,7 +10,7 @@ description: "Farhad Vahdati"
   </div>
   <div class="w3-col m7 w3-left">
   <h1> Farhad Vahdati </h1>
-    <p>Evolutionary Biologist</p>
+    <p>Data Scientist / Evolutionary Biologist</p>
     <!-- <p>Senior lecturer, University of Zurich, Switzerland</p> -->
     <!-- <p>Experienced in modeling biological evolutionary systems in different levels, from genes to populations, using a variety of techniques (e.g. agent-based modeling, analytical modeling, mathematical optimization), analyzing the models (statistical analysis, machine learning), and communicating the results (science writing, visualization). </p> -->
   </div>
