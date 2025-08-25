@@ -1,24 +1,25 @@
 ---
 layout: english
-description: "Ali R. Vahdati"
+description: "Farhad Vahdati"
 ---
 
 
 <div class="w3-row" style="padding-left: 10%; padding-right: 10%;">
   <div class="w3-col m5 w3-left">
-     <img src="{{site.url}}{{site.baseurl}}/assets/img/farhadvahdati.jpg" alt="Ali R. Vahdati." style="margin-left:auto; margin-right:auto;max-width: 500px; width: 97%; display:block; margin-bottom: 1%; max-width=50px; "> 
+     <img src="{{site.url}}{{site.baseurl}}/assets/img/farhadfarrox.png" alt="Farhad Vahdati." style="margin-left:auto; margin-right:auto;max-width: 500px; width: 97%; display:block; margin-bottom: 1%; max-width=50px; ">
   </div>
   <div class="w3-col m7 w3-left">
-  <h1> Ali R. Vahdati </h1>
+  <h1> Farhad Vahdati </h1>
     <p>Evolutionary Biologist</p>
-    <p>Senior lecturer, University of Zurich, Switzerland</p>
-    <p>Experienced in modeling biological evolutionary systems in different levels, from genes to populations, using a variety of techniques (e.g. agent-based modeling, analytical modeling, mathematical optimization), analyzing the models (statistical analysis, machine learning), and communicating the results (science writing, visualization). </p>
+    <!-- <p>Senior lecturer, University of Zurich, Switzerland</p> -->
+    <!-- <p>Experienced in modeling biological evolutionary systems in different levels, from genes to populations, using a variety of techniques (e.g. agent-based modeling, analytical modeling, mathematical optimization), analyzing the models (statistical analysis, machine learning), and communicating the results (science writing, visualization). </p> -->
   </div>
 </div>
 
-Welcome! I am interested in studying complex systems, particularly biological ones. In my research, I aim for understanding the complexity in biological systems: how interactions among genes, proteins, cells, individuals, groups, and species affect evolution and ecology.
+Welcome! I'm a data scientist specializing in the modeling and analysis of complex systems. I leverage machine learning, statistical analysis, and agent-based modeling to uncover insights from data across a range of disciplines, from biological and ecological systems to social and economic phenomena.
 
-Download my CV from [here]({{ site.url }}{{ site.baseurl }}/assets/docs/resume_cv.pdf) (PDF).
+<!-- Download my CV from [here (PDF)]({{ site.url }}{{ site.baseurl }}/assets/docs/resume_cv.pdf). -->
+
 <!-- Complexity is a state where a systems behavior and its response to environment depends on the current state of the system. Complex systems are mostly unpredictable and can show emergent properties that cannot be concluded from studying their constituent parts. A complex system can be as small as three differential equations ([Lorenz system](https://en.wikipedia.org/wiki/Lorenz_system){:target="_blank}) or as big as the human body with thousands of molecules interacting with one another. I would like to better understand complexity in biological systems: how interactions among genes, proteins, cells, individuals, groups, and species affect their evolution. -->
 
 <!-- My approach to studying such questions is with computational models. Such models allow adding more elements to a study system than mathematical models can handle, and thus help us analyze emergent properties of complex systems. -->

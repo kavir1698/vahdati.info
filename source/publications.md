@@ -4,10 +4,11 @@ permalink: /publications/
 ---
 # Publications
 
-## Books
+## Books and Book Chapters
 
 1. Three world by Karl Popper - translation to persian ([download]({{ site.url }}{{ site.baseurl }}/assets/docs/se_jahan_ali_rezaee_vahdati.pdf)).
    ترجمه‌ی سخنرانی «سه جهان» از کارل پوپر ([بارگیری]({{ site.url }}{{ site.baseurl }}/assets/docs/se_jahan_ali_rezaee_vahdati.pdf))
+2. __R. Vahdati, Ali__, Agent-based epidemic modeling in Julia. Machine Learning Perspectives of Agent-Based Models, 2025. Springer, ISBN: 978-3-031-73353-6 978-3-031-73354-3. https://doi.org/10.1007/978-3-031-73354-3_9
 
 ## Selected peer-reviewed articles
 
