@@ -10,14 +10,11 @@
   <meta name="robot" content="" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="Farhad Vahdati's personal website" />
-  
+
   <link rel="canonical" href="https://vahdati.info/hobbies/" />
   <link rel="icon" href="" />
-  <link rel="stylesheet" href="https://vahdati.info/assets/css/main.css" />
-  <link rel="stylesheet" href="https://vahdati.info/assets/fonts/fontawesomev5.0.2.css" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <link rel="stylesheet" href="https://vahdati.info/assets/css/modern.css" />
+  <link rel="stylesheet" href="https://vahdati.info/assets/fonts/fontawesomev5.0.2.css" /><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Farhad Vahdati | Farhad Vahdati’s personal website</title>
 <meta name="generator" content="Jekyll v4.2.2" />
 <meta property="og:title" content="Farhad Vahdati" />
@@ -34,74 +31,66 @@
 {"@context":"https://schema.org","@type":"WebPage","description":"Farhad Vahdati’s personal website","headline":"Farhad Vahdati","url":"https://vahdati.info/hobbies/"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="application/atom+xml" rel="alternate" href="https://vahdati.info/feed.xml" title="Farhad Vahdati" /></head>
-  
-<body dir="ltr" style="padding-right: 4%; padding-left: 4%; height: 100%" bgcolor="#EDEEEE">
-  
-  <!-- <script>
-  $(document).ready(function () {
-    if ($(window).width() < 768) {
-      $(".nav-menu").hide();
-    } else {
-      $(".nav-menu").show();
-    }
-    $(".nav-button").click(function () {
-      $(".nav-menu").slideToggle();
-    });
-  });
-</script> -->
 
-<script>
-  $(document).ready(function () {
-    var screenWidth = $(window).width();
-    var navMenu = $(".nav-menu");
-    var navButton = $(".nav-button");
-    if (screenWidth < 768) {
-      navMenu.hide();
-    } else {
-      navMenu.show();
-    }
-    navButton.click(function () {
-      navMenu.slideToggle();
-    });
-    $(window).resize(function () {
-      var newScreenWidth = $(window).width();
-      if (screenWidth >= 768 && newScreenWidth < 768) {
-        navMenu.hide();
-      }
-      if (screenWidth < 768 && newScreenWidth >= 768) {
-        navMenu.show();
-      }
-      screenWidth = newScreenWidth;
-    });
-  });
-</script>
+<body>
+  <header>
+  <div class="container">
+    <div class="header-content">
+      <a href="https://vahdati.info/" class="logo">Farhad Vahdati</a>
 
-<header class="w3-container">
-  <button class="w3-button w3-hide-large w3-hide-medium w3-white w3-xlarge w3-right nav-button">&#9776;</button>
-  <nav class="w3-bar w3-black w3-hide-small">
-    <a href="https://vahdati.info/" class="w3-bar-item w3-button">Home</a>
-    <a href="https://vahdati.info/publications" class="w3-bar-item w3-button">Publications</a>
-    <a href="https://vahdati.info/teaching" class="w3-bar-item w3-button">Teaching</a>
-    <a href="https://vahdati.info/software" class="w3-bar-item w3-button">Software</a>
-    <!-- <a href="https://vahdati.info/edu" class="w3-bar-item w3-button">Experience</a> -->
-    <!-- <a href="https://vahdati.info/hobbies" class="w3-bar-item w3-button">Hobbies</a> -->
-    <a href="https://vahdati.info/vir"  class="w3-bar-item w3-button">یادداشت‌ها</a>
-  </nav>
-  <nav class="w3-bar w3-black w3-hide-medium w3-hide-large nav-menu">
-    <a href="https://vahdati.info/" class="w3-bar-item w3-button">Home</a>
-    <a href="https://vahdati.info/publications" class="w3-bar-item w3-button">Publications</a>
-    <a href="https://vahdati.info/teaching" class="w3-bar-item w3-button">Teaching</a>
-    <a href="https://vahdati.info/software" class="w3-bar-item w3-button">Software</a>
-    <!-- <a href="https://vahdati.info/edu" class="w3-bar-item w3-button">Experience</a> -->
-    <!-- <a href="https://vahdati.info/hobbies" class="w3-bar-item w3-button">Hobbies</a> -->
-    <a href="https://vahdati.info/vir" class="w3-bar-item w3-button">یادداشت‌ها</a>
-  </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span>☰</span>
+      </button>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="https://vahdati.info/" class="active">Home</a></li>
+          <li><a href="https://vahdati.info/publications">Publications</a></li>
+          <li><a href="https://vahdati.info/teaching">Teaching</a></li>
+          <li><a href="https://vahdati.info/software">Software</a></li>
+          <li><a href="https://vahdati.info/vir">یادداشت‌ها</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header>
 
-  <main class="w3-container">
-  <div style="text-align: center;">
-    <div style="display: inline-block; text-align: left; max-width: 1000px; min-width: 50%;">
-      <h1 id="hobbies-and-interests">Hobbies and interests</h1>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const navToggle = document.getElementById('navToggle');
+  const navMenu = document.getElementById('navMenu');
+
+  // Toggle mobile menu
+  navToggle.addEventListener('click', function() {
+    navMenu.classList.toggle('active');
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener('click', function(event) {
+    if (!navToggle.contains(event.target) && !navMenu.contains(event.target)) {
+      navMenu.classList.remove('active');
+    }
+  });
+
+  // Handle active state for navigation
+  const currentPath = window.location.pathname;
+  const navLinks = document.querySelectorAll('.nav-menu a');
+
+  navLinks.forEach(link => {
+    // Remove active class from all links
+    link.classList.remove('active');
+
+    // Add active class to current page link
+    const linkPath = new URL(link.href).pathname;
+    if (linkPath === currentPath || (currentPath === '/' && linkPath === '')) {
+      link.classList.add('active');
+    }
+  });
+});
+</script>
+
+  <main>
+    <h1 id="hobbies-and-interests">Hobbies and interests</h1>
 
 <ul>
   <li>
@@ -145,54 +134,46 @@ We organize Iranian classic music concerts in Zurich, Switzerland. I also play S
   <li><a href="https://www.goodreads.com/user/show/12176303-ali" target="_blank">Reading</a></li>
 </ul>
 
+  </main>
+
+  <footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Connect</h3>
+        <ul>
+          <li><a href="https://scholar.google.com/citations?hl=en&user=BOGPlUYAAAAJ&sortby=pubdate&view_op=list_works&gmla=AJsN-F7DDvCuRVXnZRbOSj-unnK38L023RC6o_6hzUMy4-qRcr9P5ubz8yx5GNgG6xiBjJauEApSv6Ywa4SJoI7pnNC0wteZbxTNBbzI0-BIBUWyZE35qG91Eo-HCpq43WQnNm8g68hD" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a href="https://github.com/kavir1698" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/alirv/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://orcid.org/0000-0003-0895-1495" target="_blank" rel="noopener">ORCID</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Other</h3>
+        <ul>
+          <li><a href="http://bidarnameh.com" target="_blank" rel="noopener">مجله‌ی داستانی بیدار</a></li>
+          <li><a href="mailto:farhad@vahdati.info">farhad@vahdati.info</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="https://vahdati.info/">Home</a></li>
+          <li><a href="https://vahdati.info/publications">Publications</a></li>
+          <li><a href="https://vahdati.info/teaching">Teaching</a></li>
+          <li><a href="https://vahdati.info/software">Software</a></li>
+          <li><a href="https://vahdati.info/vir">یادداشت‌ها</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Farhad Vahdati. All rights reserved.</p>
     </div>
   </div>
-  </main>
-  
-  <div class="w3-container container" style="background-color:silver">
-  <div class="w3-col m4 column">
-    <ul>
-      <li>
-        <p><a
-            href="https://scholar.google.com/citations?hl=en&user=BOGPlUYAAAAJ&sortby=pubdate&view_op=list_works&gmla=AJsN-F7DDvCuRVXnZRbOSj-unnK38L023RC6o_6hzUMy4-qRcr9P5ubz8yx5GNgG6xiBjJauEApSv6Ywa4SJoI7pnNC0wteZbxTNBbzI0-BIBUWyZE35qG91Eo-HCpq43WQnNm8g68hD">Google
-            scholar</a></p>
-      </li>
-      <li>
-        <p><a href="https://github.com/kavir1698">Github</a>
-        </p>
-      </li>
-      <li>
-        <p><a href="https://www.linkedin.com/in/alirv/">Linkedin</a>
-        </p>
-      </li>
-    </ul>
-  </div>
-  <div class="w3-col m4 column">
-    <ul>
-      <li>
-        <p><a href="https://orcid.org/0000-0003-0895-1495">ORCID</a>
-        </p>
-      </li>
-      <!-- <li>
-        <p><a href="https://www.goodreads.com/user/show/12176303-ali">Goodreads</a>
-        </p>
-      </li> -->
-    </ul>
-  </div>
-  <div class="w3-col m4 column">
-    <ul>
-      <!-- <li>
-        <a href="https://www.instagram.com/farhadvdt/">Instagram</a>
-      </li> -->
-      <li>
-        <a href="http://bidarnameh.com"> مجله‌ی داستانی بیدار </a>
-      </li>
-      <li>
-        <p>farhad [at] vahdati [dot] info</p>
-      </li>
-    </ul>
-  </div>
-</div>
+</footer>
 </body>
 
 </html>
