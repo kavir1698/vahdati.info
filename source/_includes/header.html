@@ -1,60 +1,55 @@
-<!-- <script>
-  $(document).ready(function () {
-    if ($(window).width() < 768) {
-      $(".nav-menu").hide();
-    } else {
-      $(".nav-menu").show();
-    }
-    $(".nav-button").click(function () {
-      $(".nav-menu").slideToggle();
-    });
-  });
-</script> -->
+<header>
+  <div class="container">
+    <div class="header-content">
+      <a href="{{site.url}}{{site.baseurl}}/" class="logo">Farhad Vahdati</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span>☰</span>
+      </button>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="{{site.url}}{{site.baseurl}}/" class="active">Home</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/publications">Publications</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/teaching">Teaching</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/software">Software</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/vir">یادداشت‌ها</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
 
 <script>
-  $(document).ready(function () {
-    var screenWidth = $(window).width();
-    var navMenu = $(".nav-menu");
-    var navButton = $(".nav-button");
-    if (screenWidth < 768) {
-      navMenu.hide();
-    } else {
-      navMenu.show();
-    }
-    navButton.click(function () {
-      navMenu.slideToggle();
-    });
-    $(window).resize(function () {
-      var newScreenWidth = $(window).width();
-      if (screenWidth >= 768 && newScreenWidth < 768) {
-        navMenu.hide();
-      }
-      if (screenWidth < 768 && newScreenWidth >= 768) {
-        navMenu.show();
-      }
-      screenWidth = newScreenWidth;
-    });
-  });
-</script>
+document.addEventListener('DOMContentLoaded', function() {
+  const navToggle = document.getElementById('navToggle');
+  const navMenu = document.getElementById('navMenu');
 
-<header class="w3-container">
-  <button class="w3-button w3-hide-large w3-hide-medium w3-white w3-xlarge w3-right nav-button">&#9776;</button>
-  <nav class="w3-bar w3-black w3-hide-small">
-    <a href="{{site.url}}{{site.baseurl}}/" class="w3-bar-item w3-button">Home</a>
-    <a href="{{site.url}}{{site.baseurl}}/publications" class="w3-bar-item w3-button">Publications</a>
-    <a href="{{site.url}}{{site.baseurl}}/teaching" class="w3-bar-item w3-button">Teaching</a>
-    <a href="{{site.url}}{{site.baseurl}}/software" class="w3-bar-item w3-button">Software</a>
-    <!-- <a href="{{site.url}}{{site.baseurl}}/edu" class="w3-bar-item w3-button">Experience</a> -->
-    <!-- <a href="{{site.url}}{{site.baseurl}}/hobbies" class="w3-bar-item w3-button">Hobbies</a> -->
-    <a href="{{site.url}}{{site.baseurl}}/vir"  class="w3-bar-item w3-button">یادداشت‌ها</a>
-  </nav>
-  <nav class="w3-bar w3-black w3-hide-medium w3-hide-large nav-menu">
-    <a href="{{site.url}}{{site.baseurl}}/" class="w3-bar-item w3-button">Home</a>
-    <a href="{{site.url}}{{site.baseurl}}/publications" class="w3-bar-item w3-button">Publications</a>
-    <a href="{{site.url}}{{site.baseurl}}/teaching" class="w3-bar-item w3-button">Teaching</a>
-    <a href="{{site.url}}{{site.baseurl}}/software" class="w3-bar-item w3-button">Software</a>
-    <!-- <a href="{{site.url}}{{site.baseurl}}/edu" class="w3-bar-item w3-button">Experience</a> -->
-    <!-- <a href="{{site.url}}{{site.baseurl}}/hobbies" class="w3-bar-item w3-button">Hobbies</a> -->
-    <a href="{{site.url}}{{site.baseurl}}/vir" class="w3-bar-item w3-button">یادداشت‌ها</a>
-  </nav>
-</header>
+  // Toggle mobile menu
+  navToggle.addEventListener('click', function() {
+    navMenu.classList.toggle('active');
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener('click', function(event) {
+    if (!navToggle.contains(event.target) && !navMenu.contains(event.target)) {
+      navMenu.classList.remove('active');
+    }
+  });
+
+  // Handle active state for navigation
+  const currentPath = window.location.pathname;
+  const navLinks = document.querySelectorAll('.nav-menu a');
+
+  navLinks.forEach(link => {
+    // Remove active class from all links
+    link.classList.remove('active');
+
+    // Add active class to current page link
+    const linkPath = new URL(link.href).pathname;
+    if (linkPath === currentPath || (currentPath === '/' && linkPath === '')) {
+      link.classList.add('active');
+    }
+  });
+});
+</script>
