@@ -10,9 +10,10 @@ permalink: /publications/
    ترجمه‌ی سخنرانی «سه جهان» از کارل پوپر ([بارگیری]({{ site.url }}{{ site.baseurl }}/assets/docs/se_jahan_ali_rezaee_vahdati.pdf))
 2. __R. Vahdati, Ali__, Agent-based epidemic modeling in Julia. Machine Learning Perspectives of Agent-Based Models, 2025. Springer, ISBN: 978-3-031-73353-6 978-3-031-73354-3. https://doi.org/10.1007/978-3-031-73354-3_9
 
-## Selected peer-reviewed articles
+## Selected articles
 
-1. __R. Vahdati, Ali__, and Carlos J. Melián. EvoDynamics.Jl: A Framework for Modeling Eco-Evolutionary Dynamics. Journal of Open Source Software 7, no. 79, 2022: 4775. https://doi.org/10.21105/joss.04775.
+1. Carlos J. Melián, Cecilia S. Andreazzi, Julia Astegiano, Víctor M. Eguíluz, Francisco Encinas-Viso, Philine G. D. Feulner, Luis J. Gilarranz, Paulo R. Guimarães Jr., Ruben Heleno, Weini Huang, François Massol, Jordi Moya-Laraño, Jelena Pantel, Cas Retel, Pooja Singh, __Ali R. Vahdati__, Blake Matthews. Biodiversity dynamics with complex genotype-to-phenotype architecture in multilayer networks. March 2026. https://doi.org/10.64898/2026.03.23.713274
+2. __R. Vahdati, Ali__, and Carlos J. Melián. EvoDynamics.Jl: A Framework for Modeling Eco-Evolutionary Dynamics. Journal of Open Source Software 7, no. 79, 2022: 4775. https://doi.org/10.21105/joss.04775.
 2. __A. R. Vahdati__, J. D. Weissmann, A. Timmermann, M. P. de León, C. P. E. Zollikofer, Exploring Late Pleistocene hominin dispersals, coexistence and extinction with agent-based multi-factor models, Quaternary Science Reviews, 2022, 279, 107391.
 3. G. Datseris, __A. R. Vahdati__, T. C. DuBois, Agents. jl: a performant and feature-full agent-based modeling software of minimal code complexity, Simulation, 2022, 00375497211068820.
 4. __R. Vahdati, A.__, Agents.jl: agent-based modeling framework in Julia. _Journal of Open Source Software_, 2019, 4(42), 1611, https://doi.org/10.21105/joss.01611.
