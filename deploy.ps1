@@ -74,23 +74,19 @@ if (-not $SkipBuild) {
     }
 }
 
-# 3. Publish gh-pages.
+# 3. Publish gh-pages. Always push: there may be earlier unpushed commits.
 Invoke-Git $worktree @('add', '-A')
 if (& git -C $worktree status --porcelain) {
     Invoke-Git $worktree @('commit', '-m', $Message)
-    Invoke-Git $worktree @('push', $Remote, $Branch)
-    Write-Host "Published to $Branch."
-} else {
-    Write-Host "$Branch already up to date; nothing to publish."
 }
+Invoke-Git $worktree @('push', $Remote, $Branch)
+Write-Host "Published to $Branch."
 
-# 4. Back up the source branch.
+# 4. Back up the source branch. Always push: there may be earlier unpushed commits.
 Invoke-Git $root @('add', '-A')
 if (& git -C $root status --porcelain) {
     Invoke-Git $root @('commit', '-m', $Message)
-    $current = (& git -C $root rev-parse --abbrev-ref HEAD).Trim()
-    Invoke-Git $root @('push', $Remote, $current)
-    Write-Host "Backed up source to $current."
-} else {
-    Write-Host "Source already up to date; nothing to commit."
 }
+$current = (& git -C $root rev-parse --abbrev-ref HEAD).Trim()
+Invoke-Git $root @('push', $Remote, $current)
+Write-Host "Backed up source to $current."
