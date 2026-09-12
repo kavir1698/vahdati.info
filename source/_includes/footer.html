@@ -15,7 +15,7 @@
         <h3>Other</h3>
         <ul>
           <li><a href="http://bidarnameh.com" target="_blank" rel="noopener">مجله‌ی داستانی بیدار</a></li>
-          <li><a href="mailto:farhad@vahdati.info">farhad@vahdati.info</a></li>
+          <li><a class="obfuscated-email" href="#" data-user="farhad" data-domain="vahdati.info" data-show-address>farhad [at] vahdati.info</a></li>
         </ul>
       </div>
 
@@ -23,9 +23,12 @@
         <h3>Navigation</h3>
         <ul>
           <li><a href="{{site.url}}{{site.baseurl}}/">Home</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/experience">Experience</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/projects">Projects</a></li>
           <li><a href="{{site.url}}{{site.baseurl}}/publications">Publications</a></li>
           <li><a href="{{site.url}}{{site.baseurl}}/teaching">Teaching</a></li>
           <li><a href="{{site.url}}{{site.baseurl}}/software">Software</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/hobbies">Hobbies</a></li>
           <li><a href="{{site.url}}{{site.baseurl}}/vir">یادداشت‌ها</a></li>
         </ul>
       </div>
@@ -36,3 +39,18 @@
     </div>
   </div>
 </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.obfuscated-email').forEach(function (link) {
+    var user = link.getAttribute('data-user');
+    var domain = link.getAttribute('data-domain');
+    if (!user || !domain) return;
+    var address = user + '@' + domain;
+    link.setAttribute('href', 'mailto:' + address);
+    if (link.hasAttribute('data-show-address')) {
+      link.textContent = address;
+    }
+  });
+});
+</script>

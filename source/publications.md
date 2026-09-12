@@ -1,26 +1,29 @@
 ---
-layout: english
+layout: page-en
+title: Publications
 permalink: /publications/
+description: "Selected publications and book chapters by Farhad Vahdati, published as Ali R. Vahdati."
 ---
-# Publications
+
+Published as **Ali R. Vahdati**. See the [full publication profile on Google Scholar](https://scholar.google.com/citations?hl=en&user=BOGPlUYAAAAJ&sortby=pubdate&view_op=list_works){:target="_blank"}.
 
 ## Books and Book Chapters
 
-1. Three world by Karl Popper - translation to persian ([download]({{ site.url }}{{ site.baseurl }}/assets/docs/se_jahan_ali_rezaee_vahdati.pdf)).
+1. *Three Worlds* by Karl Popper - translation into Persian ([download]({{ site.url }}{{ site.baseurl }}/assets/docs/se_jahan_ali_rezaee_vahdati.pdf)).
    ترجمه‌ی سخنرانی «سه جهان» از کارل پوپر ([بارگیری]({{ site.url }}{{ site.baseurl }}/assets/docs/se_jahan_ali_rezaee_vahdati.pdf))
 2. __R. Vahdati, Ali__, Agent-based epidemic modeling in Julia. Machine Learning Perspectives of Agent-Based Models, 2025. Springer, ISBN: 978-3-031-73353-6 978-3-031-73354-3. https://doi.org/10.1007/978-3-031-73354-3_9
 
-## Selected articles
+## Selected Articles
 
 1. Shih-Wei Fang, Pasquale Raia, Aneesh Sundaresan, Chiara Barbieri, Jiaoyang Ruan, __Ali R. Vahdati__, Elke Zeller, Christoph Zollikofer, Axel Timmermann. Milanković cycles and Cultural Evolution as important Catalysts for Hominin Genetic Diversification. bioRxiv, 2026. https://doi.org/10.64898/2026.09.03.749301.
 2. Carlos J. Melián, Cecilia S. Andreazzi, Julia Astegiano, Víctor M. Eguíluz, Francisco Encinas-Viso, Philine G. D. Feulner, Luis J. Gilarranz, Paulo R. Guimarães Jr., Ruben Heleno, Weini Huang, François Massol, Jordi Moya-Laraño, Jelena Pantel, Cas Retel, Pooja Singh, __Ali R. Vahdati__, Blake Matthews. Biodiversity dynamics with complex genotype-to-phenotype architecture in multilayer networks. March 2026. https://doi.org/10.64898/2026.03.23.713274
-3. __R. Vahdati, Ali__, and Carlos J. Melián. EvoDynamics.Jl: A Framework for Modeling Eco-Evolutionary Dynamics. Journal of Open Source Software 7, no. 79, 2022: 4775. https://doi.org/10.21105/joss.04775.
+3. __R. Vahdati, Ali__, and Carlos J. Melián. EvoDynamics.jl: A Framework for Modeling Eco-Evolutionary Dynamics. Journal of Open Source Software 7, no. 79, 2022: 4775. https://doi.org/10.21105/joss.04775.
 4. __A. R. Vahdati__, J. D. Weissmann, A. Timmermann, M. P. de León, C. P. E. Zollikofer, Exploring Late Pleistocene hominin dispersals, coexistence and extinction with agent-based multi-factor models, Quaternary Science Reviews, 2022, 279, 107391.
-5. G. Datseris, __A. R. Vahdati__, T. C. DuBois, Agents. jl: a performant and feature-full agent-based modeling software of minimal code complexity, Simulation, 2022, 00375497211068820.
+5. G. Datseris, __A. R. Vahdati__, T. C. DuBois, Agents.jl: a performant and feature-full agent-based modeling software of minimal code complexity, Simulation, 2022, 00375497211068820.
 6. __R. Vahdati, A.__, Agents.jl: agent-based modeling framework in Julia. _Journal of Open Source Software_, 2019, 4(42), 1611, https://doi.org/10.21105/joss.01611.
 7. __R. Vahdati A.__, Weissmann JD, Timmermann A, Ponce de León MS, Zollikofer CPE. Drivers of Late Pleistocene human survival and dispersal: an agent-based modeling and machine learning approach. _Quaternary Science Reviews_. 2019 Oct;221:105867, https://doi.org/10.1016/j.quascirev.2019.105867.
 8. __Vahdati A. R.__, Wagner A., Population size affects adaptation in complex ways: simulations on empirical adaptive landscapes. _Evolutionary Biology_. 2017, https://doi.org/10.1007/s11692-017-9440-9.
-9. __Vahdati A. R.__, Sprouffske K., Wagner A., Effect of population size and mutation rate on the evolution of RNA sequences on an adaptive landscape determined by RNA folding . _International Journal Biological Sciences_. 2017;13(9):1138–51, https://doi.org/10.7150/ijbs.19436.
+9. __Vahdati A. R.__, Sprouffske K., Wagner A., Effect of population size and mutation rate on the evolution of RNA sequences on an adaptive landscape determined by RNA folding. _International Journal Biological Sciences_. 2017;13(9):1138–51, https://doi.org/10.7150/ijbs.19436.
 10. __Vahdati A. R.__, Wagner A., 2016 Parallel or convergent evolution in human population genomic data revealed by genotype networks. _BMC Evolutionary Biology_, 16(1), 154, https://doi.org/10.1186/s12862-016-0722-0.
 11. Dall’Olio G. M., __Vahdati A. R.__, Bertranpetit J., Wagner A., Laayouni H., 2014 VCF2Networks: applying genotype networks to single nucleotide variants data. _Bioinformatics_: 4–5, https://doi.org/10.1093/bioinformatics/btu650.
 12. Kaerst S.\*, __Vahdati A. R.\*__, Brockmann G., Hager R., 2012 Genomic imprinting and genetic effects on muscle traits in mice, _BMC Genomics_, 13:408, https://doi.org/10.1186/1471-2164-13-408. - __* Equal contribution__

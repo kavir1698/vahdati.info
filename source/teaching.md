@@ -1,19 +1,25 @@
 ---
-layout: english
+layout: page-en
+title: Teaching
 permalink: /teaching/
+description: "Teaching, course development, and invited lectures by Farhad Vahdati."
 ---
-# Teaching
 
-* __Teaching__ [BIO397 - Applied Machine Learning block course](https://kavir1698.github.io/aml){:target="_blank"}, 2019-2022.
+## Course Instruction
 
-  I deliver lectures and exercises for Julia programming language, linear algebra, multivariate calculus, machine learning, neural networks, and evaluation and improvement of machine learning models. I teach students with no previous knowledge of machine learning to design and perform complete machine learning workflows.
-* __Lecture__ at reproducible research workshop, EAWAG, 2018, Kastanienbaum, Switzerland.
+- [**BIO397 — Applied Machine Learning**](https://kavir1698.github.io/aml){:target="_blank"}, University of Zurich, 2019–2022.
 
-  I gave a lecture and hands-on tutorial about using Git version control system and collaboration using Github. ([Teaching material here](https://github.com/kavir1698/ReproducibleResearchWorkshop))
-* __Teaching Assistant__, Geometric morphometrics, UZH, 2018.
-* __Teaching Assistant__, Introduction to Bioinformatics, UZH, 2013.
+  Developed and delivered this graduate-level course for four years, covering Julia programming, linear algebra, multivariate calculus, machine learning, neural networks, and model evaluation. Students with no previous ML experience learned to design and execute complete workflows.
 
-  As part of a team, tutored about 30 students in the Evolutionary Biology and Environmental Studies programs to help them solve their programming questions in Python.
-* __Teaching Assistant__, Principles of Evolution, UZH, 2013.
+## Invited Lectures and Workshops
 
-  I prepared teaching material for R programming and delivered two lectures on Modeling Population Genetic Simulation of Natural Selection and Drift Processes. Moreover, I fielded questions from students on lecture topics.
+- **An introduction to agent-based modeling**, University of Pusan, South Korea, 2022.
+- **Reproducible research workshop**, EAWAG, Switzerland, 2018.
+
+  Delivered a lecture and hands-on tutorial on Git version control and collaboration using GitHub. [Teaching material](https://github.com/kavir1698/ReproducibleResearchWorkshop){:target="_blank"}.
+
+## Teaching Assistance
+
+- **Geometric Morphometrics**, University of Zurich, 2018.
+- **Introduction to Bioinformatics**, University of Zurich, 2013. Tutored approximately 30 students in Python programming.
+- **Principles of Evolution**, University of Zurich, 2013. Prepared R programming material and delivered lectures on population-genetic simulation of natural selection and drift.

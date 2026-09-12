@@ -1,40 +1,26 @@
 ---
-layout: english
+layout: page-en
+title: Hobbies and Interests
 permalink: /hobbies/
+description: "Writing, music, creative coding, and other interests of Farhad Vahdati."
 ---
 
-# Hobbies and interests
+## Literary Work
 
+[**Bidar Literary Magazine**](http://bidarnameh.com) (in Persian)
 
-* [Bidar literary magazine](http://bidarnameh.com) (in Persian)
+I co-founded this online literary magazine and led its editorial direction for three years. We curated more than 12 themed issues and organized Iran's first digital short-story competition, which received more than 700 submissions.
 
-  In mid-2019 I founded an online literary magazine focusing on publishing
-  short stories. I have since wrote several articles in the magazine. We have managed to
-  attract hundreds of people to write short stories, many of which were first-time writers.
-  Furthermore, we organized a short story contest that received more than 700 submissions.}
+I write daily across fiction and non-fiction genres and am currently drafting a philosophical fiction. I translated Karl Popper's *Three Worlds* into Persian.
 
-* Programming
-  
-  In my spare time I write tools. See [my Github profile](https://github.com/kavir1698) for the tools I have written.
-  
-  In 2019, I wrote the first agent-based modeling framework in the Julia language ([Agents.jl](https://github.com/JuliaDynamics/Agents.jl)), which was received well by the community and is now a part of Julia Dynamics organization.
+## Creative Coding
 
-  I have also written a GUI application for organizing and quickly accessing research notes ([GraphNotes](https://github.com/kavir1698/GraphNotes)), a thesaurus of Persian nouns from Moeen Dictionary ([Moeen_thesaurus](https://github.com/kavir1698/Moeen_thesaurus)), and a program to analyze photography habits using the metadata photos ([AnalyzeImageMetadata.jl](https://github.com/kavir1698/AnalyzeImageMetadata.jl)).
+In my spare time I build tools and contribute to open source. Selected work includes [Agents.jl](https://github.com/JuliaDynamics/Agents.jl), [ShamirSSS.jl](https://github.com/kavir1698/ShamirSSS.jl), [FuzzyCognitiveMaps.jl](https://github.com/kavir1698/FuzzyCognitiveMaps.jl), [EvoDynamics.jl](https://github.com/kavir1698/EvoDynamics.jl), [LifeCalendar](https://github.com/kavir1698/LifeCalendar.jl), and a [Persian thesaurus](https://github.com/kavir1698/Moeen_thesaurus).
 
-* Writing
-  * I write in [my blog](http://vahdati.info/vir) (in Persian) about topics such as philosophy and politics.
+## Music
 
-* Translation
+I practice classical Persian music through Setar and Kamanche performance and study composition within Iranian modal systems (Dastgah). I have been a core member of the [Setar Cultural Association](http://setar.co){:target="_blank"} since 2014, helping organize Iranian classical music concerts in Zürich.
 
-  In 2017, I translated into Persian and published Karl Popper's "Three worlds".
+## Photography and Reading
 
-* Music
-
-  I am a core member of [Setar Cultural Association](http://setar.co){:target="_blank"} since 2014.
-  We organize Iranian classic music concerts in Zurich, Switzerland. I also play Setar. 
-
-* [Photography](https://instagram.com/farhadvhdt){:target="_blank"}
-
-  It has helped me re-discover nature and learn to observe light, texture, contrast, and composition.
-
-* [Reading](https://www.goodreads.com/user/show/12176303-ali){:target="_blank"}
+I enjoy [photography](https://instagram.com/farhadvhdt){:target="_blank"} as a way to observe light, texture, contrast, and composition. I also keep a [Goodreads profile](https://www.goodreads.com/user/show/12176303-ali){:target="_blank"}.
