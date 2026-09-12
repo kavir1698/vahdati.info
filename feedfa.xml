@@ -3,7 +3,7 @@
   xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>Farhad Vahdati&apos;s personal website</description>
+    <description>Farhad Vahdati is a Senior Data Scientist working across machine learning, LLM applications, geospatial analytics, and complex-systems modeling.</description>
     <link>https://vahdati.info</link>
     <atom:link href="https://vahdati.info/feed.xml" rel="self" type="application/rss+xml" />
     
