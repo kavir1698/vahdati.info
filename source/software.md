@@ -16,6 +16,7 @@ I build open-source software for simulation, data analysis, research workflows, 
 
 ## Tools and Experiments
 
+- [**Zurstuna**](https://github.com/kavir1698/Zurstuna){:target="_blank"}: A local-first, cross-platform web application for creating and maintaining PlantUML Gantt diagrams through visual controls.
 - [**CodeNavigator.jl**](https://github.com/kavir1698/CodeNavigator.jl){:target="_blank"}: Visualizes Julia code bases.
 - [**LifeCalendar**](https://github.com/kavir1698/LifeCalendar.jl){:target="_blank"}: Creates a life-calendar visualization in weeks.
 - [**GraphNotes**](https://github.com/kavir1698/GraphNotes){:target="_blank"}: Converts research notes into a graph for easier retrieval.

@@ -62,12 +62,6 @@ Thesis: *Analysis of replication timing on genetic variation in the human genome
 ### BSc in Cellular and Molecular Biology, Genetics · Azad University Tonekabon
 **2006–2010**
 
-## Languages
-
-- **English:** C2
-- **German:** B2
-- **Persian:** Native
-
 ## Technical Focus
 
 - **Data science & ML:** Statistical modeling, supervised and unsupervised learning, experimental design, causal inference, optimization, hypothesis testing, data mining, geospatial analytics, and visualization.
