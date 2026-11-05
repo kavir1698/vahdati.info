@@ -171,30 +171,12 @@ main {
 
 .hero-content {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
   gap: 3rem;
   align-items: center;
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 1rem;
-}
-
-.hero-image {
-  text-align: center;
-}
-
-.hero-image img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-lg);
-  transition: var(--transition);
-}
-
-.hero-image img:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-xl);
 }
 
 .hero-text h1 {
@@ -487,14 +469,6 @@ button:focus {
 }
 
 /* Enhanced animations */
-.hero-image img {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.hero-image img:hover {
-  transform: translateY(-10px) scale(1.02);
-}
-
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

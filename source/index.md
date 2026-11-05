@@ -5,9 +5,6 @@ description: "Farhad Vahdati is a Senior Data Scientist working across machine l
 
 <section class="hero-section">
   <div class="hero-content">
-    <div class="hero-image fade-in">
-      <img src="{{site.url}}{{site.baseurl}}/assets/img/farhadfarrox.png" alt="Farhad Vahdati" />
-    </div>
     <div class="hero-text fade-in">
       <h1>Farhad Vahdati</h1>
       <p class="subtitle">Senior Data Scientist · AI &amp; Complex Systems</p>
